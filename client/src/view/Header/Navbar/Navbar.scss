@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+.navbar{
+    background: linear-gradient(0deg, #464341 0%, #010101 100%);
+
+    &__container{
+        max-width: 1400px;
+        margin: 0 auto;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    &__list{
+        color:white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 35px 2px 30px 2px; 
+    }
+
+    &__link{
+        font-family: 'Monrope';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    &__logo{
+        max-width: 213.27px;
+        max-height: 36px;
+    }
+
+    &__tel{
+        display: none;
+    }
+
+    &__tel-image{
+        max-width: 14.65px;
+        max-height: 19.2px;
+    }
+
+}
+
+
+@media (max-width: 460px){
+
+    .navbar{
+
+        &__list{
+            padding: 20px;
+        }
+
+        &__logo{
+            max-width: 118.48px;
+            max-height: 20px;
+        }
+
+        &__item_desktop{
+            display: none;
+        }
+
+        &__tel{
+            display: block;
+
+        }
+    }
+}

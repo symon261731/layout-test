@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.footer{
+
+    &__content{
+        background-color: #141414;
+        padding-bottom: 18px;
+        padding-top: 150px;
+    }
+
+    &__signature{
+        color:white; 
+        font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        
+        
+    }
+}
