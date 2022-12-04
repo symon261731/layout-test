@@ -4,6 +4,7 @@ import Header from './Header/Header';
 import Main from './Main/Main';
 import './null.scss';
 import './app.scss';
+import './fonts.scss';
 
 const App : React.FC = () => {
 

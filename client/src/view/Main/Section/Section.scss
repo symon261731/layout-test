@@ -11,4 +11,53 @@
         max-width: 1585px;
         margin: 0 auto;
     }
+
+    &__title{
+        margin-bottom: 123px;
+    }
+
+    &__first-pair{
+        display: flex;
+        align-items: center;
+        column-gap: 128px;
+
+        &:not(:last-child){
+            margin-bottom: 100px;
+        }
+    }
+
+    &__second-pair{
+        display: flex;
+        align-items:center;
+        column-gap: 124px;
+    }
+
+    &__describe{
+        max-width: 600px;
+    }
+
+    &__sub-title{
+        font-family: 'OrchideaPro';
+        font-size: 48px;
+        line-height: 1.1;
+        font-weight: 500;
+
+        &:not(:last-child){
+            margin-bottom: 25px;
+        }
+    }
+
+    &__text{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.3;   
+    }
+
+
+    &__left-image{
+        max-width: 860px;
+    }
+
+
+    &__right-image{}
 }
