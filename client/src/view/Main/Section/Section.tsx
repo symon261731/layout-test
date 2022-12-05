@@ -10,11 +10,10 @@ interface Props {
 const Section: React.FC<Props> = (prop) => {
     return(
         <section className='main__section content'>
+            <div className="content__container">
                 <h2 className="content__title title">ut aliquip ex ea commodo consequat</h2>
                 <div className="content__first-pair">
-                    <div className="picture">
-                        <img src={prop.firstPhoto} alt="hands" className='content__left-image' />
-                    </div>
+                    <img src={prop.firstPhoto} alt="hands" className='content__left-image' />
                     <div className="content__describe">
                         <h3 className="content__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
                         <p className="content__text">
@@ -27,7 +26,6 @@ const Section: React.FC<Props> = (prop) => {
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     </div>
                 </div>
-                <div className="content__container">
                 <div className="content__second-pair">
                     <div className="content__describe">
                         <h3 className="content__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
@@ -42,8 +40,7 @@ const Section: React.FC<Props> = (prop) => {
                     </div>
                     <img className='content__right-image' src={prop.secondPhoto} alt="404" />
                 </div>
-                </div>
-
+            </div>
         </section>
     )
 }

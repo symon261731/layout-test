@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 
 .navbar{
+    padding-right: 3px;
+    padding-left: 3px;
     background: linear-gradient(0deg, #464341 0%, #010101 100%);
 
     &__container{
-        max-width: 1400px;
-        margin: 0 auto;
-        max-width: 1400px;
+        max-width: 1325px;
         margin: 0 auto;
     }
 
     &__list{
+      
         color:white;
         display: flex;
         align-items: center;
@@ -42,6 +43,15 @@
 
 }
 
+@media(max-width:680px){
+    .navbar{
+
+        &__container{
+            max-width: none;
+        }
+    }
+}
+
 
 @media (max-width: 460px){
 
@@ -66,3 +76,5 @@
         }
     }
 }
+
+
