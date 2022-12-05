@@ -1,7 +1,6 @@
 import React from 'react';
 import './Section.scss';
 
-
 interface Props { 
     firstPhoto: string;
     secondPhoto: string;

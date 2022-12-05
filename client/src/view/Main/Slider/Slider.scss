@@ -23,7 +23,7 @@
 
     &__photos{
         display: flex;
-        overflow-x: scroll;
+        overflow-x:scroll;
         scroll-snap-type: x mandatory;
         &::-webkit-scrollbar{
             width: 0;
