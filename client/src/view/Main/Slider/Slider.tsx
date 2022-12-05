@@ -1,15 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHorizontalScroll } from '../../../hooks/useHorizontalHook';
 import useWindowDimensions from '../../../hooks/useWindowDimens';
 import './Slider.scss';
 
 
 const Slider : React.FC = () => {
-    const scroolRef = useHorizontalScroll();
-
     const { width } = useWindowDimensions();
+    const scroolRef= useHorizontalScroll();
 
-
+    
     return (
         <section className="main__section slider">
             <div className="slider">
